@@ -1,0 +1,79 @@
+.root
+{
+   -fx-font-size: 24px;
+   -fx-font-family: "system";
+}
+
+/*
+#vbox
+{
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: grey;
+    -fx-border-radius: 3px;
+}
+#gridpane
+{
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: grey;
+    -fx-border-radius: 3px;
+}
+*/
+
+#display
+{
+    -fx-font-size: 30px;
+    -fx-background-radius: 3px;
+    -fx-padding: 0px 2px 0px 2px;
+
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: grey;
+    -fx-border-radius: 3px;
+}
+#display:hover
+{
+    -fx-background-color: lightgrey;
+}
+#display:pressed
+{
+    -fx-background-color: grey;
+}
+
+.button, .toggle-button
+{
+    -fx-pref-width: 50px;
+    -fx-pref-height: 51px;
+
+    -fx-cursor: HAND;
+}
+
+
+#bDel
+{
+    -fx-background-image: url("/backspace.png");
+    -fx-background-size: 24px 24px;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+#bAns
+{
+    -fx-font-size: 17px;
+}
+#bSqr
+{
+    -fx-font-size: 19px;
+}
+#bSqrt
+{
+    -fx-font-size: 19px;
+}
+#bFact
+{
+    -fx-font-size: 19px;
+}
+#b2nd
+{
+    -fx-font-size: 16px;
+}

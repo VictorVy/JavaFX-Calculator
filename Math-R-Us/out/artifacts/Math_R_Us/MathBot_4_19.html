@@ -1,0 +1,43 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'MathBot_4_19.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedMathBot_4_19_id() {
+        dtjava.embed(
+            {
+                id : 'MathBot_4_19_id',
+                url : 'MathBot_4_19.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '600',
+                height : '400'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedMathBot_4_19_id);
+</script>
+
+</head><body>
+<h2>Test page for <b>Math-R-Us</b></h2>
+  <b>Webstart:</b> <a href='MathBot_4_19.jnlp' onclick="return launchApplication('MathBot_4_19.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>
